@@ -1,0 +1,55 @@
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  .facebook {
+    background-color: #324f8a;
+    &:hover {
+      background-color: darken(#324f8a, 10%);
+      text-decoration: none;
+    }
+  }
+  .twitter {
+    background-color: #0099eb;
+    &:hover {
+      background-color: darken(#0099eb, 10%);
+      text-decoration: none;
+    }
+  }
+  .instagram {
+    background-color: #a82d93;
+    &:hover {
+      background-color: darken(#a82d93, 10%);
+      text-decoration: none;
+    }
+  }
+  .medium {
+    background-color: #292929;
+    &:hover {
+      background-color: darken(#292929, 10%);
+      text-decoration: none;
+    }
+  }
+  .github {
+    background-color: #292929;
+    &:hover {
+      background-color: darken(#292929, 10%);
+      text-decoration: none;
+    }
+  }
+  .linkedin {
+    background-color: #006ba9;
+    &:hover {
+      background-color: darken(#006ba9, 10%);
+      text-decoration: none;
+    }
+  }
+}
