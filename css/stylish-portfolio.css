@@ -120,6 +120,41 @@ h6 {
   }
 }
 
+.bc-header {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: #1d1f1d;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bc-header h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.bc-header h3 {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .bc-header {
+    height: 100vh;
+  }
+  .bc-header h1 {
+    font-size: 5.5rem;
+  }
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
