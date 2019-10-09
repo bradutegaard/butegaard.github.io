@@ -18,9 +18,18 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.website-button {
+  padding: 1.25rem 2.5rem;
+}
+
+.small-heading {
+  font-size: 20px;
+  margin: 25px 0 25px 0;
+}
+
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .content-section-heading h2 {
@@ -30,6 +39,10 @@ body {
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.content-section-heading p {
+  font-size: 0.5rem;
 }
 
 h1,
@@ -111,11 +124,51 @@ h6 {
   color: white;
 }
 
+.masthead p {
+  color: white;
+  font-size: 1.25rem;
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
   }
   .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.ac-header {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: #20d4e6;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ac-header h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.ac-header h3 {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .ac-header {
+    height: 100vh;
+  }
+  .ac-header h1 {
     font-size: 5.5rem;
   }
 }
@@ -151,6 +204,76 @@ h6 {
     height: 100vh;
   }
   .bc-header h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.gm-header {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: #5d30ab;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gm-header h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.gm-header h3 {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .gm-header {
+    height: 100vh;
+  }
+  .gm-header h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.tt-header {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-color: #ab8830;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tt-header h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.tt-header h3 {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .tt-header {
+    height: 100vh;
+  }
+  .tt-header h1 {
     font-size: 5.5rem;
   }
 }
@@ -438,7 +561,7 @@ a:hover, a:focus, a:active {
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .bg-primary {
