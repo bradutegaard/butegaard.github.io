@@ -525,6 +525,15 @@ footer.footer .linkedin:hover {
   text-decoration: none;
 }
 
+footer.footer .email {
+  background-color: #bec0c2;
+}
+
+footer.footer .email:hover {
+  background-color: #a4a7a9;
+  text-decoration: none;
+}
+
 a {
   color: #1D809F;
 }

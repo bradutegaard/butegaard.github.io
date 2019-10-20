@@ -52,4 +52,11 @@ footer.footer {
       text-decoration: none;
     }
   }
+  .email {
+    background-color: #bec0c2;
+    &:hover {
+      background-color: darken(#bec0c2, 10%);
+      text-decoration: none;
+    }
+  }
 }
